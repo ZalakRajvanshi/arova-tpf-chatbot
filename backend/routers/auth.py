@@ -11,12 +11,60 @@ router = APIRouter(prefix="/auth", tags=["auth"])
 RESET_LINK_BASE = os.getenv("RESET_LINK_BASE", "http://localhost:5173/reset-password")
 RESET_TOKEN_TTL_HOURS = 1
 
+# Optional comma-separated allowlist of email domains for public signup.
+# Empty = anyone can sign up. Example: "theproductfolks.com,gmail.com"
+SIGNUP_ALLOWED_DOMAINS = [
+    d.strip().lower() for d in os.getenv("SIGNUP_ALLOWED_DOMAINS", "").split(",") if d.strip()
+]
+
 
 @router.post("/login", response_model=schemas.LoginResponse)
 def login(request: schemas.LoginRequest, db: Session = Depends(get_db)):
     user = db.query(models.User).filter(models.User.email == request.email).first()
     if not user or not auth.verify_password(request.password, user.password_hash):
         raise HTTPException(status_code=401, detail="Invalid email or password")
+
+    token = auth.create_token(user.id)
+    return schemas.LoginResponse(
+        access_token=token,
+        user_id=user.id,
+        name=user.name,
+        role=user.role,
+    )
+
+
+# ── Public signup ─────────────────────────────────────
+@router.post("/signup", response_model=schemas.LoginResponse)
+def signup(request: schemas.SignupRequest, db: Session = Depends(get_db)):
+    name = request.name.strip()
+    email = request.email.strip().lower()
+
+    if len(name) < 2:
+        raise HTTPException(status_code=400, detail="Name must be at least 2 characters.")
+    if "@" not in email or "." not in email.split("@")[-1]:
+        raise HTTPException(status_code=400, detail="Please enter a valid email.")
+    if len(request.password) < 6:
+        raise HTTPException(status_code=400, detail="Password must be at least 6 characters.")
+
+    # Optional domain restriction
+    if SIGNUP_ALLOWED_DOMAINS:
+        domain = email.split("@")[-1]
+        if domain not in SIGNUP_ALLOWED_DOMAINS:
+            allowed = ", ".join(f"@{d}" for d in SIGNUP_ALLOWED_DOMAINS)
+            raise HTTPException(status_code=403, detail=f"Sign-up is restricted to: {allowed}")
+
+    if db.query(models.User).filter(models.User.email == email).first():
+        raise HTTPException(status_code=400, detail="An account with this email already exists.")
+
+    user = models.User(
+        email=email,
+        password_hash=auth.hash_password(request.password),
+        name=name,
+        role="employee",
+    )
+    db.add(user)
+    db.commit()
+    db.refresh(user)
 
     token = auth.create_token(user.id)
     return schemas.LoginResponse(

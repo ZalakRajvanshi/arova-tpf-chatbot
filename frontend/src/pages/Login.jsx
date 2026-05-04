@@ -169,12 +169,18 @@ export default function Login() {
               {loading ? "Signing in..." : "Sign in"}
             </button>
 
-            <div className="text-center pt-1">
+            <div className="flex items-center justify-between pt-1">
               <Link
                 to="/forgot-password"
                 className="text-xs text-zinc-500 dark:text-zinc-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition"
               >
                 Forgot password?
+              </Link>
+              <Link
+                to="/signup"
+                className="text-xs text-zinc-500 dark:text-zinc-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition"
+              >
+                Create an account →
               </Link>
             </div>
           </form>

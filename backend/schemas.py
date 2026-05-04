@@ -16,6 +16,12 @@ class LoginResponse(BaseModel):
     role: str
 
 
+class SignupRequest(BaseModel):
+    name: str
+    email: str
+    password: str
+
+
 class ForgotPasswordRequest(BaseModel):
     email: str
 
