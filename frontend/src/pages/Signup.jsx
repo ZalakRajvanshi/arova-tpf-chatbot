@@ -4,6 +4,7 @@ import api, { auth } from "../api";
 import ThemeToggle from "../components/ThemeToggle";
 import Logo from "../components/Logo";
 import PasswordInput from "../components/PasswordInput";
+import PasswordStrength from "../components/PasswordStrength";
 
 export default function Signup() {
   const [name, setName] = useState("");
@@ -73,7 +74,7 @@ export default function Signup() {
               required
               autoFocus
               className="w-full px-3.5 py-2.5 rounded-lg bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition"
-              placeholder="Astha"
+              placeholder="Your name"
             />
           </div>
 
@@ -102,6 +103,7 @@ export default function Signup() {
               minLength={6}
               placeholder="At least 6 characters"
             />
+            <PasswordStrength password={password} />
           </div>
 
           <div>
