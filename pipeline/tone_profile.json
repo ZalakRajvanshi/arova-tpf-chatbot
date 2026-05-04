@@ -1,0 +1,38 @@
+{
+  "tone_descriptors": [
+    "enthusiastic",
+    "inclusive",
+    "collaborative",
+    "innovative",
+    "supportive"
+  ],
+  "core_values": [
+    "community building",
+    "continuous learning",
+    "innovation",
+    "collaboration",
+    "real-world insights"
+  ],
+  "hiring_philosophy": [
+    "focus on potential and adaptability",
+    "importance of community and networking",
+    "value of real-world experience and insights"
+  ],
+  "language_patterns": [
+    "grow together",
+    "real talk",
+    "unfiltered conversations",
+    "invite-only",
+    "no recordings"
+  ],
+  "what_good_looks_like": [
+    "engaging in honest and insightful discussions",
+    "sharing practical and actionable insights",
+    "fostering a sense of community and collaboration"
+  ],
+  "what_bad_looks_like": [
+    "relying solely on theoretical knowledge",
+    "lack of engagement in community activities",
+    "failing to adapt to new tools and technologies"
+  ]
+}

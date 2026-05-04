@@ -1,0 +1,1019 @@
+{
+  "total_scenarios": 56,
+  "tone_profile": {
+    "tone_descriptors": [
+      "enthusiastic",
+      "inclusive",
+      "collaborative",
+      "innovative",
+      "supportive"
+    ],
+    "core_values": [
+      "community building",
+      "continuous learning",
+      "innovation",
+      "collaboration",
+      "real-world insights"
+    ],
+    "hiring_philosophy": [
+      "focus on potential and adaptability",
+      "importance of community and networking",
+      "value of real-world experience and insights"
+    ],
+    "language_patterns": [
+      "grow together",
+      "real talk",
+      "unfiltered conversations",
+      "invite-only",
+      "no recordings"
+    ],
+    "what_good_looks_like": [
+      "engaging in honest and insightful discussions",
+      "sharing practical and actionable insights",
+      "fostering a sense of community and collaboration"
+    ],
+    "what_bad_looks_like": [
+      "relying solely on theoretical knowledge",
+      "lack of engagement in community activities",
+      "failing to adapt to new tools and technologies"
+    ]
+  },
+  "tpf_context": "The Product Folks (TPF) is a product management community with 250,000+ members.\nTheir team manages talent recruitment — they list PM and tech roles from companies like\nSwiggy, Zomato, Paytm, Pine Labs, BharatPe, Zepto, Google, Razorpay, Meesho, CRED, and others.\nCandidates apply or get referred to these roles through the TPF platform.\n\nThe TPF recruiter team:\n- Screens and shortlists candidates for client companies\n- Schedules and coordinates interviews between candidates and companies\n- Communicates updates, feedback, and decisions to candidates\n- Manages relationships with hiring companies\n- Handles their own internal team hiring too",
+  "scenarios": [
+    {
+      "message": "Hi there, I applied for the Senior Product Manager role at Swiggy a few weeks back, but I haven't heard anything yet. I'm really excited about this opportunity and just wanted to check in on the status of my application. I hope to hear from you soon!",
+      "sender_name": "Ananya",
+      "role_applied": "Senior Product Manager",
+      "company_name": "Swiggy",
+      "tone": "concerned_candidate",
+      "category": "delay",
+      "expected_points": [
+        "acknowledge",
+        "show_empathy",
+        "reassure",
+        "provide_timeline"
+      ],
+      "ideal_response_tone": "Thank you for reaching out, Ananya! We appreciate your patience, and we're currently reviewing applications; you’ll hear from us shortly.",
+      "difficulty": "easy",
+      "situation_type": "no_update_after_applying"
+    },
+    {
+      "message": "Hello! I applied for the Product Manager position at Zomato about three weeks ago, and I haven't received any updates yet. I’m really passionate about this role, and I’d love to know where I stand. Any news would be greatly appreciated!",
+      "sender_name": "Rohit",
+      "role_applied": "Product Manager",
+      "company_name": "Zomato",
+      "tone": "concerned_candidate",
+      "category": "delay",
+      "expected_points": [
+        "acknowledge",
+        "apologize",
+        "clarify",
+        "set_expectations",
+        "show_empathy"
+      ],
+      "ideal_response_tone": "Hi Rohit, thank you for your interest! We truly value your enthusiasm and will update you on your application status as soon as possible.",
+      "difficulty": "easy",
+      "situation_type": "no_update_after_applying"
+    },
+    {
+      "message": "Hi, I submitted my application for the Associate PM role at Paytm around two weeks ago and haven’t heard back yet. I’m really eager to join the team and would appreciate any updates you might have!",
+      "sender_name": "Priya",
+      "role_applied": "Associate PM",
+      "company_name": "Paytm",
+      "tone": "concerned_candidate",
+      "category": "delay",
+      "expected_points": [
+        "acknowledge",
+        "apologize",
+        "reassure",
+        "explain_process"
+      ],
+      "ideal_response_tone": "Thanks for checking in, Priya! We’re actively reviewing candidates and will get back to you soon.",
+      "difficulty": "easy",
+      "situation_type": "no_update_after_applying"
+    },
+    {
+      "message": "Hey there! I applied for a Growth PM position at BharatPe around 10 days ago and I’m starting to feel a bit anxious about the wait. I’d really love to know if there are any updates on my application—I’m super excited about this opportunity!",
+      "sender_name": "Vikram",
+      "role_applied": "Growth PM",
+      "company_name": "BharatPe",
+      "tone": "concerned_candidate",
+      "category": "delay",
+      "expected_points": [
+        "acknowledge",
+        "apologize",
+        "show_empathy",
+        "clarify"
+      ],
+      "ideal_response_tone": "Hi Vikram! We understand the anticipation and appreciate your excitement; we’ll keep you posted on your application status soon.",
+      "difficulty": "easy",
+      "situation_type": "no_update_after_applying"
+    },
+    {
+      "message": "Hi, I hope you’re doing well! I applied for the Product Manager role at Meesho about three weeks ago, but I haven’t received any feedback yet. I’m really looking forward to contributing to the team, so any updates would mean a lot!",
+      "sender_name": "Sneha",
+      "role_applied": "Product Manager",
+      "company_name": "Meesho",
+      "tone": "concerned_candidate",
+      "category": "delay",
+      "expected_points": [
+        "acknowledge",
+        "show_empathy",
+        "provide_timeline",
+        "reassure"
+      ],
+      "ideal_response_tone": "Thank you, Sneha! We’re thrilled about your interest and will update you on your application process shortly.",
+      "difficulty": "easy",
+      "situation_type": "no_update_after_applying"
+    },
+    {
+      "message": "Hi TPF team, I hope you're doing well. It's been almost two weeks since my last interview for the Senior PM role at Zepto, and I haven't heard back yet. I’m getting a bit anxious and would really appreciate any update you might have.",
+      "sender_name": "Arjun",
+      "role_applied": "Senior PM",
+      "company_name": "Zepto",
+      "tone": "frustrated_candidate",
+      "category": "delay",
+      "expected_points": [
+        "acknowledge",
+        "show_empathy",
+        "provide_timeline",
+        "reassure"
+      ],
+      "ideal_response_tone": "We're on it, Arjun! We'll check in with Zepto and get back to you shortly — your patience is much appreciated!",
+      "difficulty": "medium",
+      "situation_type": "post_interview_silence"
+    },
+    {
+      "message": "Hey TPF team, I hope all is well. I wanted to reach out because it's been over a week since my interview for the Product Manager position at CRED, and I'm still waiting for feedback. It’s making me a bit anxious, and I'd love to hear any updates you might have.",
+      "sender_name": "Sneha",
+      "role_applied": "Product Manager",
+      "company_name": "CRED",
+      "tone": "frustrated_candidate",
+      "category": "delay",
+      "expected_points": [
+        "acknowledge",
+        "apologize",
+        "show_empathy",
+        "explain_process"
+      ],
+      "ideal_response_tone": "Thanks for your patience, Sneha! We'll reach out to CRED for an update and let you know as soon as we hear back.",
+      "difficulty": "medium",
+      "situation_type": "post_interview_silence"
+    },
+    {
+      "message": "Hi TPF, I hope you’re doing great. I’m reaching out because it’s been almost two weeks since my interview for the Principal PM role at Razorpay. I’m eager to hear back and just wanted to check if you have any updates.",
+      "sender_name": "Ravi",
+      "role_applied": "Principal PM",
+      "company_name": "Razorpay",
+      "tone": "frustrated_candidate",
+      "category": "delay",
+      "expected_points": [
+        "acknowledge",
+        "reassure",
+        "set_expectations",
+        "clarify"
+      ],
+      "ideal_response_tone": "Hi Ravi! We're in touch with Razorpay and will ensure you get an update soon — hang tight!",
+      "difficulty": "medium",
+      "situation_type": "post_interview_silence"
+    },
+    {
+      "message": "Hello TPF team, I hope you're all doing well. I wanted to follow up on my recent interview for the Product Manager position at Google. It’s been over a week and I haven’t received any feedback yet. I would really appreciate any updates!",
+      "sender_name": "Anjali",
+      "role_applied": "Product Manager",
+      "company_name": "Google",
+      "tone": "frustrated_candidate",
+      "category": "delay",
+      "expected_points": [
+        "acknowledge",
+        "show_empathy",
+        "clarify",
+        "provide_timeline"
+      ],
+      "ideal_response_tone": "Thanks for reaching out, Anjali! We'll check in with Google and update you ASAP — your enthusiasm is appreciated!",
+      "difficulty": "medium",
+      "situation_type": "post_interview_silence"
+    },
+    {
+      "message": "Hi there TPF team, just wanted to touch base regarding my application for the Senior PM role at PhonePe. It’s been about two weeks since my last interview, and I'm starting to feel a bit anxious. Any updates would be greatly appreciated!",
+      "sender_name": "Karan",
+      "role_applied": "Senior PM",
+      "company_name": "PhonePe",
+      "tone": "frustrated_candidate",
+      "category": "delay",
+      "expected_points": [
+        "acknowledge",
+        "apologize",
+        "reassure",
+        "show_empathy"
+      ],
+      "ideal_response_tone": "Hi Karan! We completely understand your concern and will follow up with PhonePe for an update shortly — thanks for your patience!",
+      "difficulty": "medium",
+      "situation_type": "post_interview_silence"
+    },
+    {
+      "message": "Hi TPF Team, I hope you’re doing well! I wanted to reach out because I’ve just received an offer from Zomato and they need a decision from me by tomorrow. I’m really excited about the role I applied for with you, but I’m feeling a bit pressured to respond to Zomato. Can you please let me know the status of my application? Thanks a lot!",
+      "sender_name": "Ananya",
+      "role_applied": "Product Manager",
+      "company_name": "Zomato",
+      "tone": "concerned_candidate",
+      "category": "offer_issue",
+      "expected_points": [
+        "acknowledge",
+        "show_empathy",
+        "provide_timeline",
+        "reassure"
+      ],
+      "ideal_response_tone": "We understand your urgency, Ananya, and will prioritize your application to provide an update as soon as possible!",
+      "difficulty": "hard",
+      "situation_type": "competing_offer_urgency"
+    },
+    {
+      "message": "Hey TPF, I wanted to give you a quick heads-up that I've been offered a Senior PM position at Swiggy, and I need to give them an answer soon. I’m really passionate about the opportunity with your community, and I’d love to know where I stand in your hiring process. Thank you for your support!",
+      "sender_name": "Rahul",
+      "role_applied": "Senior PM",
+      "company_name": "Swiggy",
+      "tone": "concerned_candidate",
+      "category": "offer_issue",
+      "expected_points": [
+        "apologize",
+        "clarify",
+        "explain_process",
+        "set_expectations"
+      ],
+      "ideal_response_tone": "Thanks for letting us know, Rahul! We'll expedite your application review and keep you posted on our next steps.",
+      "difficulty": "hard",
+      "situation_type": "competing_offer_urgency"
+    },
+    {
+      "message": "Hello TPF Team, I hope you’re all doing great! I’m in a bit of a bind as I've just received a job offer from Meesho and they’ve given me a tight deadline to respond. I’m really hoping to hear back from you soon about my application because I feel a strong fit for the Product Manager role. Appreciate your help!",
+      "sender_name": "Priya",
+      "role_applied": "Product Manager",
+      "company_name": "Meesho",
+      "tone": "concerned_candidate",
+      "category": "offer_issue",
+      "expected_points": [
+        "acknowledge",
+        "reassure",
+        "provide_timeline",
+        "show_empathy"
+      ],
+      "ideal_response_tone": "We totally understand, Priya! We’ll work quickly to provide you with an update on your application status.",
+      "difficulty": "hard",
+      "situation_type": "competing_offer_urgency"
+    },
+    {
+      "message": "Hi Team, I hope everything is going well! I wanted to reach out because I just got an offer from Paytm, and they need to hear back from me by tomorrow. I’m really interested in the position I applied for with you, so I’d appreciate any updates on my application status. Thank you for your understanding!",
+      "sender_name": "Karan",
+      "role_applied": "Growth PM",
+      "company_name": "Paytm",
+      "tone": "concerned_candidate",
+      "category": "offer_issue",
+      "expected_points": [
+        "show_empathy",
+        "acknowledge",
+        "clarify",
+        "set_expectations"
+      ],
+      "ideal_response_tone": "Thanks for updating us, Karan! We’ll fast-track your application review and keep you informed of any developments.",
+      "difficulty": "hard",
+      "situation_type": "competing_offer_urgency"
+    },
+    {
+      "message": "Hey TPF team! I clicked 'Get Referred' for the Associate PM role at Razorpay but I'm a bit lost on what happens next. It’s been a few days, and I haven’t heard anything. Can you please help me understand the process? Thanks!",
+      "sender_name": "Riya Sharma",
+      "role_applied": "Associate PM",
+      "company_name": "Razorpay",
+      "tone": "confused_candidate",
+      "category": "process_confusion",
+      "expected_points": [
+        "acknowledge",
+        "clarify",
+        "reassure",
+        "explain_process",
+        "set_expectations"
+      ],
+      "ideal_response_tone": "We're here to help, Riya! We'll check on the referral status and get back to you shortly with an update.",
+      "difficulty": "easy",
+      "situation_type": "referral_process_confusion"
+    },
+    {
+      "message": "Hello TPF team! I applied for the Product Manager position at BharatPe and clicked on 'Get Referred' last week, but I haven’t received any updates yet. Could you please let me know what the next steps are? I really appreciate it!",
+      "sender_name": "Ajay Verma",
+      "role_applied": "Product Manager",
+      "company_name": "BharatPe",
+      "tone": "confused_candidate",
+      "category": "process_confusion",
+      "expected_points": [
+        "acknowledge",
+        "apologize",
+        "reassure",
+        "provide_timeline",
+        "show_empathy"
+      ],
+      "ideal_response_tone": "Hi Ajay! Thanks for reaching out — I’ll follow up on your referral and ensure you have the info you need soon!",
+      "difficulty": "easy",
+      "situation_type": "referral_process_confusion"
+    },
+    {
+      "message": "Hi TPF, I clicked 'Get Referred' for the Associate PM role at Pine Labs, but I haven't heard back yet and I’m feeling a bit anxious. Can you guide me on what to expect moving forward? Thank you so much!",
+      "sender_name": "Sneha Patel",
+      "role_applied": "Associate PM",
+      "company_name": "Pine Labs",
+      "tone": "confused_candidate",
+      "category": "process_confusion",
+      "expected_points": [
+        "acknowledge",
+        "clarify",
+        "explain_process",
+        "reassure",
+        "set_expectations"
+      ],
+      "ideal_response_tone": "Hi Sneha! No worries, we’re on it! I’ll check your referral status and keep you in the loop shortly.",
+      "difficulty": "easy",
+      "situation_type": "referral_process_confusion"
+    },
+    {
+      "message": "Hey there, TPF team! I recently clicked 'Get Referred' for a Product Manager position at Pocket FM, but I’m not sure what the next steps are. I’d love some clarity on this! Thanks a ton!",
+      "sender_name": "Karan Singh",
+      "role_applied": "Product Manager",
+      "company_name": "Pocket FM",
+      "tone": "confused_candidate",
+      "category": "process_confusion",
+      "expected_points": [
+        "acknowledge",
+        "clarify",
+        "explain_process",
+        "reassure",
+        "show_empathy"
+      ],
+      "ideal_response_tone": "Hi Karan! Absolutely, I’ll dig into your referral and get back to you with all the details soon.",
+      "difficulty": "easy",
+      "situation_type": "referral_process_confusion"
+    },
+    {
+      "message": "Hi TPF team! I’m really excited about the offer I accepted for the Senior PM role at Zepto a couple of weeks ago, but I still haven’t received the formal offer letter. I’m getting a bit anxious and would love to know if there’s any update on this. Thanks for your help!",
+      "sender_name": "Riya Sharma",
+      "role_applied": "Senior PM",
+      "company_name": "Zepto",
+      "tone": "concerned_candidate",
+      "category": "offer_issue",
+      "expected_points": [
+        "acknowledge",
+        "show_empathy",
+        "clarify",
+        "provide_timeline"
+      ],
+      "ideal_response_tone": "We appreciate your patience, Riya! We'll check in with Zepto and get back to you shortly.",
+      "difficulty": "medium",
+      "situation_type": "offer_letter_delay"
+    },
+    {
+      "message": "Hey TPF team! I hope you’re doing well. I accepted the offer for the Product Manager position at CRED about two weeks ago, but I haven't seen the formal offer letter yet. Can you please help me understand what’s happening? I’m really eager to get started!",
+      "sender_name": "Aarav Gupta",
+      "role_applied": "Product Manager",
+      "company_name": "CRED",
+      "tone": "concerned_candidate",
+      "category": "offer_issue",
+      "expected_points": [
+        "acknowledge",
+        "reassure",
+        "show_empathy",
+        "explain_process"
+      ],
+      "ideal_response_tone": "Thanks for reaching out, Aarav! We'll follow up with CRED and keep you posted on the status.",
+      "difficulty": "medium",
+      "situation_type": "offer_letter_delay"
+    },
+    {
+      "message": "Hello TPF team, I’m really looking forward to joining Swiggy as a Senior PM! I accepted the offer verbally about a week and a half ago, but I'm still waiting on the official offer letter. Is there any update you can share? I really want to start preparing for my new role!",
+      "sender_name": "Sneha Patel",
+      "role_applied": "Senior PM",
+      "company_name": "Swiggy",
+      "tone": "concerned_candidate",
+      "category": "offer_issue",
+      "expected_points": [
+        "acknowledge",
+        "apologize",
+        "clarify",
+        "set_expectations"
+      ],
+      "ideal_response_tone": "Hi Sneha! We understand your eagerness and will check with Swiggy about your offer letter right away.",
+      "difficulty": "medium",
+      "situation_type": "offer_letter_delay"
+    },
+    {
+      "message": "Hi TPF team! I hope all is well. I verbally accepted the Product Manager role at PhonePe two weeks ago, and I’m still waiting on the formal offer letter. I’m starting to get a bit worried. Can you help me find out what the delay is?",
+      "sender_name": "Lakshya Mehta",
+      "role_applied": "Product Manager",
+      "company_name": "PhonePe",
+      "tone": "concerned_candidate",
+      "category": "offer_issue",
+      "expected_points": [
+        "acknowledge",
+        "reassure",
+        "explain_process",
+        "provide_timeline"
+      ],
+      "ideal_response_tone": "Thanks for your patience, Lakshya! We will reach out to PhonePe and update you as soon as possible.",
+      "difficulty": "medium",
+      "situation_type": "offer_letter_delay"
+    },
+    {
+      "message": "Hi team, I hope you’re doing well. I recently learned that my application for the Senior PM role at Google was unsuccessful, and I’d really appreciate it if you could share some specific feedback on my interview. I’m eager to improve and would love any insights you could provide. Thanks so much!",
+      "sender_name": "Rahul Sharma",
+      "role_applied": "Senior PM",
+      "company_name": "Google",
+      "tone": "concerned_candidate",
+      "category": "feedback_request",
+      "expected_points": [
+        "show_empathy",
+        "reassure",
+        "explain_process",
+        "acknowledge"
+      ],
+      "ideal_response_tone": "We appreciate your proactive approach, Rahul! We'll gather feedback and share it with you soon to support your growth.",
+      "difficulty": "medium",
+      "situation_type": "rejection_feedback_request"
+    },
+    {
+      "message": "Hello TPF team, I wanted to reach out regarding my application for the Principal PM position at Razorpay. I was quite disappointed to hear I didn’t make it, and I would be grateful if you could provide some feedback on my performance. It would really help me in my future applications. Thank you!",
+      "sender_name": "Sneha Desai",
+      "role_applied": "Principal PM",
+      "company_name": "Razorpay",
+      "tone": "concerned_candidate",
+      "category": "feedback_request",
+      "expected_points": [
+        "acknowledge",
+        "provide_timeline",
+        "clarify",
+        "show_empathy"
+      ],
+      "ideal_response_tone": "Thank you for reaching out, Sneha! We’re here to help and will follow up with detailed feedback shortly.",
+      "difficulty": "medium",
+      "situation_type": "rejection_feedback_request"
+    },
+    {
+      "message": "Hi there! I hope you’re doing great. I found out that my application for the Product Manager role at CRED didn’t go through, and I’m quite curious about the reasons. A bit of feedback would mean a lot as I’d love to learn and improve. Thanks for your help!",
+      "sender_name": "Amit Verma",
+      "role_applied": "Product Manager",
+      "company_name": "CRED",
+      "tone": "concerned_candidate",
+      "category": "feedback_request",
+      "expected_points": [
+        "explain_process",
+        "reassure",
+        "set_expectations",
+        "show_empathy"
+      ],
+      "ideal_response_tone": "Hi Amit! We appreciate your enthusiasm and will provide you with feedback soon to help you in your journey.",
+      "difficulty": "medium",
+      "situation_type": "rejection_feedback_request"
+    },
+    {
+      "message": "Hello TPF team, I hope you’re all well! I’m reaching out as I was recently informed that my application for the Senior PM role at BharatPe was not successful. I’d love to understand what areas I could improve upon. Any specific feedback would be incredibly helpful. Thank you!",
+      "sender_name": "Priya Nair",
+      "role_applied": "Senior PM",
+      "company_name": "BharatPe",
+      "tone": "concerned_candidate",
+      "category": "feedback_request",
+      "expected_points": [
+        "acknowledge",
+        "clarify",
+        "show_empathy",
+        "provide_timeline"
+      ],
+      "ideal_response_tone": "Thanks for your message, Priya! We’re committed to your growth and will send over detailed feedback for you soon.",
+      "difficulty": "medium",
+      "situation_type": "rejection_feedback_request"
+    },
+    {
+      "message": "Hi TPF team, I just saw that my interview with Meesho was canceled without any notice or reason. I'm feeling pretty disappointed, especially after preparing so much for it. Can you please help me understand what's going on?",
+      "sender_name": "Riya",
+      "role_applied": "Product Manager",
+      "company_name": "Meesho",
+      "tone": "frustrated_candidate",
+      "category": "process_confusion",
+      "expected_points": [
+        "acknowledge",
+        "apologize",
+        "clarify",
+        "show_empathy"
+      ],
+      "ideal_response_tone": "We understand your frustration, Riya, and we're here to help you through this process.",
+      "difficulty": "medium",
+      "situation_type": "interview_cancelled_no_reschedule"
+    },
+    {
+      "message": "Hello TPF team, I just received a notification that my interview with Zomato has been canceled unexpectedly. I was really looking forward to it and I'm quite uncertain about what to do next. Any insights would be appreciated!",
+      "sender_name": "Ayaan",
+      "role_applied": "Senior PM",
+      "company_name": "Zomato",
+      "tone": "frustrated_candidate",
+      "category": "process_confusion",
+      "expected_points": [
+        "acknowledge",
+        "apologize",
+        "explain_process",
+        "reassure"
+      ],
+      "ideal_response_tone": "We're sorry for this unexpected situation, Ayaan, and we'll find out more information for you as quickly as possible.",
+      "difficulty": "medium",
+      "situation_type": "interview_cancelled_no_reschedule"
+    },
+    {
+      "message": "Hey TPF team, I just found out that my interview with Pine Labs has been canceled without any explanation. It's really disheartening, and I would love to know what happened. Thanks for your help!",
+      "sender_name": "Neha",
+      "role_applied": "Product Manager",
+      "company_name": "Pine Labs",
+      "tone": "frustrated_candidate",
+      "category": "process_confusion",
+      "expected_points": [
+        "acknowledge",
+        "apologize",
+        "show_empathy",
+        "set_expectations"
+      ],
+      "ideal_response_tone": "We completely empathize with your disappointment, Neha, and we're committed to finding a resolution for you.",
+      "difficulty": "medium",
+      "situation_type": "interview_cancelled_no_reschedule"
+    },
+    {
+      "message": "Hi TPF team, I just received a message that my interview with Paytm was canceled, and there was no follow-up. I'm feeling quite lost about what to do next and would appreciate any guidance you can provide.",
+      "sender_name": "Raj",
+      "role_applied": "Senior PM",
+      "company_name": "Paytm",
+      "tone": "frustrated_candidate",
+      "category": "process_confusion",
+      "expected_points": [
+        "acknowledge",
+        "apologize",
+        "clarify",
+        "reassure",
+        "show_empathy"
+      ],
+      "ideal_response_tone": "We're here for you, Raj, and we'll make sure to get the necessary updates on this situation for you.",
+      "difficulty": "medium",
+      "situation_type": "interview_cancelled_no_reschedule"
+    },
+    {
+      "message": "Hey TPF team, I hope everything is alright! I was really excited about the Growth PM position at Swiggy, but I haven't heard back in a while. Just wanted to check in and see if there are any updates. Thanks!",
+      "sender_name": "Aarav",
+      "role_applied": "Growth PM",
+      "company_name": "Swiggy",
+      "tone": "ghosted_candidate",
+      "category": "ghosting",
+      "expected_points": [
+        "acknowledge",
+        "apologize",
+        "clarify",
+        "show_empathy",
+        "set_expectations"
+      ],
+      "ideal_response_tone": "We appreciate your patience and will get back to you with updates shortly!",
+      "difficulty": "hard",
+      "situation_type": "ghosted_mid_process"
+    },
+    {
+      "message": "Hi TPF, I hope you're doing well! I was really looking forward to hearing back about the Associate PM role at BharatPe. It’s been a bit quiet, and I'm just wondering if there's any news on my application. Thanks for your help!",
+      "sender_name": "Simran",
+      "role_applied": "Associate PM",
+      "company_name": "BharatPe",
+      "tone": "ghosted_candidate",
+      "category": "ghosting",
+      "expected_points": [
+        "acknowledge",
+        "apologize",
+        "reassure",
+        "show_empathy",
+        "provide_timeline"
+      ],
+      "ideal_response_tone": "Thanks for reaching out! We understand the wait can be tough, and we’ll update you soon!",
+      "difficulty": "hard",
+      "situation_type": "ghosted_mid_process"
+    },
+    {
+      "message": "Hello TPF team, I hope all is well! I’m just checking in about my application for the Senior PM role at Zepto. It's been a little while since we last spoke, and I'm eager for any updates. Appreciate your assistance!",
+      "sender_name": "Riya",
+      "role_applied": "Senior PM",
+      "company_name": "Zepto",
+      "tone": "ghosted_candidate",
+      "category": "ghosting",
+      "expected_points": [
+        "acknowledge",
+        "apologize",
+        "explain_process",
+        "reassure",
+        "set_expectations"
+      ],
+      "ideal_response_tone": "Thanks for your patience! We will reach out with updates very soon.",
+      "difficulty": "hard",
+      "situation_type": "ghosted_mid_process"
+    },
+    {
+      "message": "Hey TPF, just wanted to follow up about my application for the Growth PM position at Razorpay. I haven’t heard back in a while and I'm feeling a bit anxious about it. Would love to know if there’s any progress. Thanks a lot!",
+      "sender_name": "Vikram",
+      "role_applied": "Growth PM",
+      "company_name": "Razorpay",
+      "tone": "ghosted_candidate",
+      "category": "ghosting",
+      "expected_points": [
+        "acknowledge",
+        "apologize",
+        "clarify",
+        "show_empathy",
+        "provide_timeline"
+      ],
+      "ideal_response_tone": "Thanks for reaching out! We genuinely appreciate your interest and will update you shortly.",
+      "difficulty": "hard",
+      "situation_type": "ghosted_mid_process"
+    },
+    {
+      "message": "Hey TPF team, I just received the offer from CRED, but the salary is way lower than what we discussed initially. I’m feeling pretty confused and a bit undervalued right now. Can you help me understand what's going on?",
+      "sender_name": "Rahul",
+      "role_applied": "Senior PM",
+      "company_name": "CRED",
+      "tone": "frustrated_candidate",
+      "category": "offer_issue",
+      "expected_points": [
+        "acknowledge",
+        "clarify",
+        "show_empathy",
+        "set_expectations"
+      ],
+      "ideal_response_tone": "Absolutely, we understand your concerns and will reach out to CRED to clarify the situation as soon as possible.",
+      "difficulty": "hard",
+      "situation_type": "salary_mismatch"
+    },
+    {
+      "message": "Hi team, I just got an offer from PhonePe, but the salary is much lower than what we talked about. Honestly, it's a bit disheartening. Could you please look into this for me?",
+      "sender_name": "Ananya",
+      "role_applied": "Product Manager",
+      "company_name": "PhonePe",
+      "tone": "frustrated_candidate",
+      "category": "offer_issue",
+      "expected_points": [
+        "acknowledge",
+        "apologize",
+        "explain_process",
+        "reassure"
+      ],
+      "ideal_response_tone": "We hear you, Ananya, and we're on it! We'll reach out to PhonePe to address this discrepancy right away.",
+      "difficulty": "hard",
+      "situation_type": "salary_mismatch"
+    },
+    {
+      "message": "Hello TPF, I’m really surprised by the offer from Meesho because the salary doesn’t match what we discussed during the interviews. I’m feeling a bit let down. Can you assist me in resolving this?",
+      "sender_name": "Siddharth",
+      "role_applied": "Principal PM",
+      "company_name": "Meesho",
+      "tone": "frustrated_candidate",
+      "category": "offer_issue",
+      "expected_points": [
+        "acknowledge",
+        "show_empathy",
+        "provide_timeline",
+        "clarify"
+      ],
+      "ideal_response_tone": "Thanks for bringing this to our attention, Siddharth; we'll promptly reach out to Meesho to find out what happened and keep you updated.",
+      "difficulty": "hard",
+      "situation_type": "salary_mismatch"
+    },
+    {
+      "message": "Hi there, I just received an offer from Pine Labs, but the salary is significantly lower than what we had discussed. It’s quite disappointing, and I’m hoping you can help me figure this out.",
+      "sender_name": "Priya",
+      "role_applied": "Senior PM",
+      "company_name": "Pine Labs",
+      "tone": "frustrated_candidate",
+      "category": "offer_issue",
+      "expected_points": [
+        "acknowledge",
+        "show_empathy",
+        "set_expectations",
+        "clarify"
+      ],
+      "ideal_response_tone": "We completely understand your frustration, Priya, and we’ll dive into this with Pine Labs to get clarity on the offer immediately.",
+      "difficulty": "hard",
+      "situation_type": "salary_mismatch"
+    },
+    {
+      "message": "Hey TPF team, I just noticed that the Product Manager position at Zomato I applied for is no longer on the job board. I'm feeling really confused and worried about what this means for my application. Can you please clarify what's going on?",
+      "sender_name": "Aarav",
+      "role_applied": "Product Manager",
+      "company_name": "Zomato",
+      "tone": "confused_candidate",
+      "category": "process_confusion",
+      "expected_points": [
+        "acknowledge",
+        "apologize",
+        "clarify",
+        "reassure",
+        "show_empathy"
+      ],
+      "ideal_response_tone": "We're here to support you and will get back to you shortly with an update on your application status!",
+      "difficulty": "easy",
+      "situation_type": "role_no_longer_listed"
+    },
+    {
+      "message": "Hi there! I just realized that the Senior PM role at Swiggy I applied for has disappeared from your site. This is making me really anxious—does this mean the position is filled? Can you help me understand what’s happening?",
+      "sender_name": "Priya",
+      "role_applied": "Senior PM",
+      "company_name": "Swiggy",
+      "tone": "confused_candidate",
+      "category": "process_confusion",
+      "expected_points": [
+        "acknowledge",
+        "apologize",
+        "explain_process",
+        "reassure",
+        "set_expectations"
+      ],
+      "ideal_response_tone": "We completely understand your concern and will provide you with an update as soon as possible!",
+      "difficulty": "easy",
+      "situation_type": "role_no_longer_listed"
+    },
+    {
+      "message": "Hello TPF, I hope you’re well. I applied for a Product Manager position at Paytm, but I see it’s no longer listed. This has left me feeling really uncertain about my application. Can you clarify what’s going on?",
+      "sender_name": "Saanvi",
+      "role_applied": "Product Manager",
+      "company_name": "Paytm",
+      "tone": "confused_candidate",
+      "category": "process_confusion",
+      "expected_points": [
+        "acknowledge",
+        "apologize",
+        "clarify",
+        "reassure",
+        "show_empathy"
+      ],
+      "ideal_response_tone": "Your concerns are valid, and we appreciate your patience as we look into this for you!",
+      "difficulty": "easy",
+      "situation_type": "role_no_longer_listed"
+    },
+    {
+      "message": "Hey TPF team, I just received an offer from Zepto for the Senior PM position, but they want me to join immediately. I have a notice period of 2 months at my current job, and I'm really anxious about how to handle this. Any advice on how I can negotiate this with them? Thanks!",
+      "sender_name": "Aarav",
+      "role_applied": "Senior PM",
+      "company_name": "Zepto",
+      "tone": "concerned_candidate",
+      "category": "offer_issue",
+      "expected_points": [
+        "acknowledge",
+        "show_empathy",
+        "clarify",
+        "reassure",
+        "provide_timeline"
+      ],
+      "ideal_response_tone": "We understand your situation, and we'll work together to help you communicate your notice period clearly to Zepto while exploring possible solutions.",
+      "difficulty": "medium",
+      "situation_type": "notice_period_issue"
+    },
+    {
+      "message": "Hi TPF team, I’m thrilled to get an offer from Razorpay for the Principal PM role, but they need someone to start right away. Unfortunately, I’m stuck with a 3-month notice period and I’m worried I might lose this opportunity. What should I do?",
+      "sender_name": "Divya",
+      "role_applied": "Principal PM",
+      "company_name": "Razorpay",
+      "tone": "concerned_candidate",
+      "category": "offer_issue",
+      "expected_points": [
+        "acknowledge",
+        "apologize",
+        "show_empathy",
+        "explain_process",
+        "set_expectations"
+      ],
+      "ideal_response_tone": "We totally empathize with your situation and will support you in crafting a message to Razorpay to communicate your notice period and discuss potential flexibility.",
+      "difficulty": "medium",
+      "situation_type": "notice_period_issue"
+    },
+    {
+      "message": "Hello TPF team, I'm excited about the offer from CRED for the Senior PM position, but they want me to join immediately. I’m currently bound by a 2-month notice period, and I feel nervous about negotiating this. How can I approach this?",
+      "sender_name": "Neha",
+      "role_applied": "Senior PM",
+      "company_name": "CRED",
+      "tone": "concerned_candidate",
+      "category": "offer_issue",
+      "expected_points": [
+        "acknowledge",
+        "reassure",
+        "show_empathy",
+        "clarify",
+        "provide_timeline"
+      ],
+      "ideal_response_tone": "We understand your concern, and we're here to assist you in navigating this situation with CRED, ensuring you feel confident in your approach.",
+      "difficulty": "medium",
+      "situation_type": "notice_period_issue"
+    },
+    {
+      "message": "I can't believe the candidate we agreed on for the Senior PM position at Zomato didn’t even show up for the interview. This is incredibly frustrating! We need dependable candidates, and this is not the first time this has happened. Can you please look into this?",
+      "sender_name": "Riya Sharma",
+      "role_applied": "Senior PM",
+      "company_name": "Zomato",
+      "tone": "angry_client",
+      "category": "general",
+      "expected_points": [
+        "acknowledge",
+        "apologize",
+        "clarify",
+        "show_empathy"
+      ],
+      "ideal_response_tone": "We'll investigate this matter and ensure better communication with candidates moving forward.",
+      "difficulty": "hard",
+      "situation_type": "client_candidate_no_show"
+    },
+    {
+      "message": "I'm really disappointed that the candidate for the PM Lead role at Swiggy didn’t attend their scheduled interview. We were looking forward to discussing potential opportunities with them. Can you help figure out what went wrong?",
+      "sender_name": "Amit Verma",
+      "role_applied": "PM Lead",
+      "company_name": "Swiggy",
+      "tone": "angry_client",
+      "category": "general",
+      "expected_points": [
+        "acknowledge",
+        "apologize",
+        "reassure",
+        "provide_timeline",
+        "show_empathy"
+      ],
+      "ideal_response_tone": "I hear your frustration, and we’ll ensure candidates are more reliable in the future.",
+      "difficulty": "hard",
+      "situation_type": "client_candidate_no_show"
+    },
+    {
+      "message": "I’m really frustrated that the candidate you referred for the Senior PM role at Meesho didn’t show up at all for the interview. This lack of professionalism is disappointing, and it’s making it hard for us to move forward. Can we discuss this?",
+      "sender_name": "Sneha Patel",
+      "role_applied": "Senior PM",
+      "company_name": "Meesho",
+      "tone": "angry_client",
+      "category": "general",
+      "expected_points": [
+        "acknowledge",
+        "apologize",
+        "explain_process",
+        "show_empathy"
+      ],
+      "ideal_response_tone": "We value your feedback and will improve our candidate vetting process to avoid this in the future.",
+      "difficulty": "hard",
+      "situation_type": "client_candidate_no_show"
+    },
+    {
+      "message": "Hey TPF team, I'm really frustrated with the candidates you’ve been sending us for the Senior PM role at BharatPe. They don’t seem to have the right experience or skills we’re looking for, and it’s slowing down our hiring process. Can we please have a chat to align on exactly what we need?",
+      "sender_name": "Ananya",
+      "role_applied": "Senior PM",
+      "company_name": "BharatPe",
+      "tone": "professional_client",
+      "category": "general",
+      "expected_points": [
+        "acknowledge",
+        "show_empathy",
+        "clarify",
+        "reassure",
+        "set_expectations"
+      ],
+      "ideal_response_tone": "We appreciate your feedback, Ananya, and we'll work closely with you to refine our search and ensure we align with your expectations moving forward.",
+      "difficulty": "hard",
+      "situation_type": "client_profile_mismatch"
+    },
+    {
+      "message": "Hi there, I wanted to reach out because the candidates we’ve been receiving for the Principal PM position at CRED just aren’t hitting the mark. It’s becoming a bit frustrating since we’re eager to fill this role. Can we set up a meeting to discuss what’s going wrong?",
+      "sender_name": "Rahul",
+      "role_applied": "Principal PM",
+      "company_name": "CRED",
+      "tone": "professional_client",
+      "category": "general",
+      "expected_points": [
+        "acknowledge",
+        "apologize",
+        "explain_process",
+        "reassure",
+        "show_empathy"
+      ],
+      "ideal_response_tone": "Thank you for bringing this to our attention, Rahul; we’re committed to finding the right fit and would love to discuss specifics with you to improve our candidate selection.",
+      "difficulty": "hard",
+      "situation_type": "client_profile_mismatch"
+    },
+    {
+      "message": "Hello TPF team, I’m reaching out because the candidates for the Senior PM role at Razorpay aren't quite what we expected. We’re really looking for someone with more hands-on experience, and I’m feeling a bit concerned about the quality of applicants. Can we talk soon?",
+      "sender_name": "Priya",
+      "role_applied": "Senior PM",
+      "company_name": "Razorpay",
+      "tone": "professional_client",
+      "category": "general",
+      "expected_points": [
+        "acknowledge",
+        "show_empathy",
+        "clarify",
+        "reassure",
+        "set_expectations"
+      ],
+      "ideal_response_tone": "I completely understand your concerns, Priya, and I assure you that we will take immediate steps to better align our candidate recommendations with your needs.",
+      "difficulty": "hard",
+      "situation_type": "client_profile_mismatch"
+    },
+    {
+      "message": "Hey Team, I hope you’re doing well! I’ve been eagerly waiting for my performance review feedback for quite some time now, and it’s starting to make me anxious. Could you please let me know if there’s a timeline for when I might receive it? I’m really looking forward to understanding my role better and how I can contribute more effectively.",
+      "sender_name": "Riya Sharma",
+      "role_applied": "Community Manager",
+      "company_name": "Zomato",
+      "tone": "concerned_candidate",
+      "category": "delay",
+      "expected_points": [
+        "acknowledge",
+        "show_empathy",
+        "provide_timeline",
+        "set_expectations"
+      ],
+      "ideal_response_tone": "We understand your concern, Riya, and are actively working to provide you with the feedback you need soon — thank you for your patience!",
+      "difficulty": "medium",
+      "situation_type": "internal_team_delayed_feedback"
+    },
+    {
+      "message": "Hi TPF Team, I hope everything is great! It’s been a few weeks since I’ve been waiting for clarity on my role and feedback from my last review. I’m feeling a bit lost and would really appreciate any updates you could share. Thanks for all your support!",
+      "sender_name": "Arjun Mehta",
+      "role_applied": "Talent Associate",
+      "company_name": "Paytm",
+      "tone": "concerned_candidate",
+      "category": "delay",
+      "expected_points": [
+        "acknowledge",
+        "reassure",
+        "explain_process",
+        "set_expectations"
+      ],
+      "ideal_response_tone": "We truly appreciate your patience, Arjun, and we're working on getting back to you with clarity shortly — hang tight!",
+      "difficulty": "medium",
+      "situation_type": "internal_team_delayed_feedback"
+    },
+    {
+      "message": "Hello Team, I hope all is well with you! I wanted to reach out regarding the performance review feedback I’ve been expecting for some time now. It’s been hard not knowing where I stand, and I’d love any info or timeline on when I can expect to hear back. Thank you!",
+      "sender_name": "Nisha Rao",
+      "role_applied": "Operations Manager",
+      "company_name": "Swiggy",
+      "tone": "concerned_candidate",
+      "category": "delay",
+      "expected_points": [
+        "acknowledge",
+        "clarify",
+        "show_empathy",
+        "provide_timeline"
+      ],
+      "ideal_response_tone": "We hear you, Nisha, and are committed to providing you with the feedback soon — thank you for your understanding!",
+      "difficulty": "medium",
+      "situation_type": "internal_team_delayed_feedback"
+    },
+    {
+      "message": "Hi TPF team, I hope you're doing well! I applied for the Product Manager position at Zepto a few months ago but unfortunately didn’t get through. I’m really passionate about the role and have been working on enhancing my skills since then. Would my application be reconsidered if I reapply? Thank you for your guidance!",
+      "sender_name": "Riya Sharma",
+      "role_applied": "Product Manager",
+      "company_name": "Zepto",
+      "tone": "concerned_candidate",
+      "category": "feedback_request",
+      "expected_points": [
+        "acknowledge",
+        "show_empathy",
+        "clarify",
+        "reassure",
+        "explain_process"
+      ],
+      "ideal_response_tone": "Absolutely, Riya! We appreciate your determination and would love to see your new application; it reflects your growth and passion.",
+      "difficulty": "medium",
+      "situation_type": "candidate_reapplying_after_rejection"
+    },
+    {
+      "message": "Hello TPF team, I hope you’re all doing great! I had applied for the Senior PM role at Swiggy a few months back but didn’t make it through. I’ve taken some courses to strengthen my skills in the meantime and I’m eager to know if I can be considered again for similar roles. Thank you!",
+      "sender_name": "Aarav Mehta",
+      "role_applied": "Senior PM",
+      "company_name": "Swiggy",
+      "tone": "concerned_candidate",
+      "category": "feedback_request",
+      "expected_points": [
+        "acknowledge",
+        "show_empathy",
+        "reassure",
+        "provide_timeline",
+        "set_expectations"
+      ],
+      "ideal_response_tone": "Hi Aarav, we love to see candidates who are dedicated to growth! Please feel free to reapply, and we'll make sure to review your application thoroughly.",
+      "difficulty": "medium",
+      "situation_type": "candidate_reapplying_after_rejection"
+    },
+    {
+      "message": "Hi team, I hope everything is going well! I had previously applied for a Product Manager position at CRED but was not selected. Since then, I have gained more experience and insights, and I would love to know if I could be reconsidered if I reapply. Thanks for your help!",
+      "sender_name": "Priya Kapoor",
+      "role_applied": "Product Manager",
+      "company_name": "CRED",
+      "tone": "concerned_candidate",
+      "category": "feedback_request",
+      "expected_points": [
+        "acknowledge",
+        "show_empathy",
+        "clarify",
+        "reassure",
+        "explain_process"
+      ],
+      "ideal_response_tone": "Hi Priya! Your commitment to growth is impressive, and we would be happy to consider your reapplication; just let us know when you’re ready!",
+      "difficulty": "medium",
+      "situation_type": "candidate_reapplying_after_rejection"
+    }
+  ]
+}
