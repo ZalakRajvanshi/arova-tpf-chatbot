@@ -3,6 +3,7 @@ import { useParams, Link, useNavigate } from "react-router-dom";
 import api from "../api";
 import ThemeToggle from "../components/ThemeToggle";
 import Logo from "../components/Logo";
+import PasswordInput from "../components/PasswordInput";
 
 export default function ResetPassword() {
   const { token } = useParams();
@@ -100,14 +101,12 @@ export default function ResetPassword() {
                 <label className="block text-xs font-medium text-zinc-700 dark:text-zinc-300 mb-1.5">
                   New password
                 </label>
-                <input
-                  type="password"
+                <PasswordInput
                   value={pwd}
-                  onChange={(e) => setPwd(e.target.value)}
+                  onChange={setPwd}
                   required
                   autoFocus
                   minLength={6}
-                  className="w-full px-3.5 py-2.5 rounded-lg bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition"
                   placeholder="At least 6 characters"
                 />
               </div>
@@ -115,13 +114,11 @@ export default function ResetPassword() {
                 <label className="block text-xs font-medium text-zinc-700 dark:text-zinc-300 mb-1.5">
                   Confirm new password
                 </label>
-                <input
-                  type="password"
+                <PasswordInput
                   value={confirmPwd}
-                  onChange={(e) => setConfirmPwd(e.target.value)}
+                  onChange={setConfirmPwd}
                   required
                   minLength={6}
-                  className="w-full px-3.5 py-2.5 rounded-lg bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition"
                 />
               </div>
 
